@@ -7,21 +7,17 @@ const Inicio = () => {
         <Section>
             <DivText>
                 <h1>
-                    Make 
-                    <br />
-                    <span>remote work</span>
+                    Make remote work
                 </h1>
                 <p>
-                    Get your team in sync, no matter yout location.
-                    <br />
+                    Get your team in sync, no matter your location.
+                    
                     Streamline proscesses, create team rituals, and 
-                    <br />
+                    
                     watch productivity soar.
                 </p>
                     <br />
-                <button>
-                    Learn more
-                </button>
+                <button>Learn more</button>
 
                 <DivP>
                     <DivImgP>
@@ -40,7 +36,8 @@ const Inicio = () => {
 
             </DivText>
             <DivImg>
-                <Img src="./img/image-hero-desktop.png" />
+                <source srcSet="./img/image-hero-desktop.png"  media='(min-width: 376px)' />
+                <Img src="./img/image-hero-mobile.png" alt='principal' />
             </DivImg>
         </Section>
 

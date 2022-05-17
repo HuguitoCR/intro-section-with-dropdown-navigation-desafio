@@ -7,6 +7,30 @@ export const Nav = Styled.nav`
     align-items: center;
     color: hsl(0, 0%, 41%);
     
+    .button{
+        display: none;
+    }
+
+
+
+    @media (max-width: 375px) {
+        padding: 20px 0 0 20px;
+        justify-content: space-between;
+
+        .button {
+            display: block;
+            border: none;
+            background-color: transparent;
+            margin-right: 10px;
+
+        }
+    }
+
+    
+
+
+
+
 `;
 
 export const Logo = Styled.img`
@@ -24,6 +48,10 @@ export const Ul = Styled.ul`
     margin-bottom: 20px;
     margin-left: 10px;
 
+    @media (max-width: 375px) {
+        display: none;
+    }
+
 `;
 
 export const Li = Styled.li`
@@ -34,7 +62,7 @@ export const Li = Styled.li`
 export const DivButton = Styled.div`
     margin-left: auto;
     text-align: center;
-
+    
 
     button {
         color: hsl(0, 0%, 41%);
@@ -52,6 +80,10 @@ export const DivButton = Styled.div`
         border-radius: 15px;
         padding: 5px 20px 5px 20px;
         margin-right: 20px;
+    }
+
+    @media (max-width: 375px) {
+        display: none;
     }
 
 `;
