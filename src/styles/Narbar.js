@@ -14,7 +14,8 @@ export const Nav = Styled.nav`
     }
 
     @media (max-width: 375px) {
-        padding: 20px 0 0 20px;
+        padding: 0px 0 0 20px;
+        margin-top: 10px;
         justify-content: space-between;
         
         .button {
