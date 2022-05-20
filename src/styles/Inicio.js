@@ -66,9 +66,15 @@ button {
     padding: 10px 20px 10px 20px;
     border-radius: 10px;
     margin-top: 1rem;
-    width: 113.18px;
+    width: 115.18px;
     height: 39px;
     font-weight: bold;
+    cursor: pointer;
+    &:hover {
+        background-color: var(--Almost-White);
+        color: var(--Almost-Black);
+        border: solid 1px var(--Almost-Black);
+    }
 }
 
     @media (max-width: 375px) {
